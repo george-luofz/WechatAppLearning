@@ -1,0 +1,13 @@
+<view class="container">
+  <view class='viewContainer'>
+    <label class="dateLabel">{{dateStr}}</label>
+    <view class='textAreaContainer'>
+      <textarea class="textArea" placeholder='世间杂乱，记录自己的声音...'></textarea>
+    </view>
+    
+    <view class='bottomContainer'>
+      <button class='leftButton' > 返回</button>
+      <button class='rightButton'> 保存</button>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,68 @@
+
+.container {
+  /* height: 1334rpx; */
+  height: 100%;
+  background: blue;
+  /* display: flex;
+  flex-direction:column; */
+}
+
+.viewContainer {
+  background: red;
+  display: flex;
+  flex-direction: column;
+}
+
+ .dateLabel {  /*设置宽度不好使呢 */
+   display: block;
+   background: firebrick;
+   /* width: 200rpx; */
+   /* height: 64rpx; */
+   margin-left: 10rpx;
+  /* text-align: center;  */
+   white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  /* width: auto; */
+  width: 200rpx;
+ }
+
+.textAreaContainer {  /* 没有什么是加一个父容器解决不了的 */
+  margin: 30rpx;
+  background-color: white;
+  border-radius: 15rpx;
+}
+
+.textArea {
+  /* background-color: none; */
+  font-size: 30rpx;
+  margin: 0rpx;
+}
+
+.bottomContainer {
+  height: 88rpx;
+  display: flex;
+  flex-direction: row;
+  background-color: gray;
+  margin-bottom: 0rpx;
+}
+
+.leftButton {
+  background: none;
+  color: white;
+  /* border:0ch;
+  border-width: 0rpx; */
+}
+
+.rightButton {
+  background: none;
+  color: white;
+}
+ /* .dateLabel {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 100px;
+    height: 12px;
+    background: #1aad19;
+ } */

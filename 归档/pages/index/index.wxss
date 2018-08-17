@@ -1,0 +1,30 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;    
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.userClick {
+  width: 256rpx;    
+  height: 128rpx;
+  margin: 30rpx;
+}
+
+/*app.wxss 可以全局控制*/
+/*rpx，小程序长度单位，底层实现*/

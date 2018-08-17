@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/test/diary",
+    "pages/index/index",
+    "pages/index2/index2"
+  ],
+  "window":{
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "white",
+    "navigationStyle": "custom"
+  },
+  "tabBar":{
+    "color":"#888888",
+    "selectedColor": "#3080c0",
+    "borderStyle": "gray",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/test/diary",
+      "text": "发现",
+      "iconPath":"images/faxian@2x.png",
+      "selectedIconPath":"images/faxian_selected@2x.png"
+    },{
+      "pagePath": "pages/index/index",
+      "text": "资讯",
+      "iconPath":"images/zixun@2x.png",
+      "selectedIconPath":"images/zixun_selected@2x.png"
+    },
+    {
+      "pagePath": "pages/index2/index2",
+      "text": "资讯2",
+      "iconPath":"images/zixun@2x.png",
+      "selectedIconPath":"images/zixun_selected@2x.png"
+    }]
+  }
+}

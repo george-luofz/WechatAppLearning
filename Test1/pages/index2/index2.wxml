@@ -1,0 +1,14 @@
+<view class="container"> 
+
+    <image class="topImage" src="{{imageUrl}}"> 
+
+    </image>
+<!-- 主视图 -->
+    <view class="centerContainer"> 
+
+    </view>
+    <!-- 底部视图 -->
+    <view class="bottomContainer">
+        
+    </view>
+</view>
